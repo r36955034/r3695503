@@ -486,3 +486,7 @@ main { padding-top: 80px; }
     font-size: 26px;
   }
 }
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
