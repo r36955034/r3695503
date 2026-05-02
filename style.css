@@ -362,10 +362,10 @@ main { padding-top: 80px; }
 /* ===== FOOTER ===== */
 
 .footer {
-  background: #0b0b0b;
-  color: #f5f1e8;
+  background: #f6f1e7;
+  color: #2b2118;
   padding: 80px 24px 32px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(120, 95, 70, 0.12);
   font-family: "Inter", sans-serif;
 }
 
@@ -374,7 +374,7 @@ main { padding-top: 80px; }
   margin: auto;
 }
 
-/* Top Layout */
+/* Layout */
 
 .footer-top {
   display: grid;
@@ -386,25 +386,25 @@ main { padding-top: 80px; }
 
 .footer-symbol {
   font-size: 38px;
-  color: #d6b36a;
+  color: #a97442;
   margin-bottom: 18px;
 }
 
 .footer-title {
   font-size: 30px;
   font-weight: 700;
-  color: #f8f4ec;
+  color: #2b2118;
   margin-bottom: 10px;
 }
 
 .footer-created {
-  color: #b8aa93;
+  color: #7d6754;
   font-size: 14px;
   margin-bottom: 18px;
 }
 
 .footer-description {
-  color: #b8aa93;
+  color: #6f5c4d;
   line-height: 1.9;
   font-size: 15px;
   max-width: 370px;
@@ -416,7 +416,7 @@ main { padding-top: 80px; }
   font-size: 12px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #d6b36a;
+  color: #a97442;
   margin-bottom: 24px;
 }
 
@@ -433,21 +433,21 @@ main { padding-top: 80px; }
 }
 
 .footer-links a {
-  color: #cbbda7;
+  color: #6f5c4d;
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 15px;
 }
 
 .footer-links a:hover {
-  color: #f8f4ec;
+  color: #a97442;
   padding-left: 4px;
 }
 
 /* Contact */
 
 .footer-contact p {
-  color: #cbbda7;
+  color: #6f5c4d;
   font-size: 15px;
   margin-bottom: 15px;
   line-height: 1.8;
@@ -466,20 +466,20 @@ main { padding-top: 80px; }
 /* Bottom */
 
 .footer-bottom {
-  border-top: 1px solid rgba(214, 179, 106, 0.15);
+  border-top: 1px solid rgba(169, 116, 66, 0.15);
   margin-top: 70px;
   padding-top: 26px;
   text-align: center;
 }
 
 .footer-copy {
-  color: #9f9077;
+  color: #7d6754;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
 .footer-inspired {
-  color: #7f725f;
+  color: #9a826d;
   font-size: 14px;
   font-style: italic;
 }
