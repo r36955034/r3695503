@@ -98,3 +98,33 @@ levelsHost.innerHTML = levelsHTML;
 
 /* Re-observe newly added .reveal nodes */
 levelsHost.querySelectorAll(".reveal").forEach(el => io.observe(el));
+
+// Smooth scroll for footer links
+
+document.querySelectorAll('.footer-links a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute('href');
+    const targetSection = document.querySelector(targetId);
+
+    if (targetSection) {
+      window.scrollTo({
+        top: targetSection.offsetTop - 60,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+
+// Dynamic Year Update
+
+const copyText = document.querySelector('.footer-copy');
+
+if (copyText) {
+  const year = new Date().getFullYear();
+
+  copyText.innerHTML =
+    `मिच्छामि दुक्कड़म् · © ${year} Jain Sanskar Arohan · All rights reserved`;
+}
